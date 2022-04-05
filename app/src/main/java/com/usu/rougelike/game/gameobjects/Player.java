@@ -93,7 +93,7 @@ public class Player extends GameObject {
         canvas.translate(myX, myY);
         paint.setColor(Color.parseColor("#D2B48C"));
         canvas.drawRect(cellSize*5/16, 0, cellSize*11/16, cellSize*5/16, paint);
-        paint.setColor(Color.BLACK);
+        paint.setColor(Color.WHITE);
         canvas.drawRect(cellSize*6/16, cellSize/16, cellSize*7/16, cellSize*3/16, paint);
         canvas.drawRect(cellSize*8/16, cellSize/16, cellSize*9/16, cellSize*3/16, paint);
         paint.setColor(Color.GREEN);
